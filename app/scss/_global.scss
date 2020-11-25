@@ -29,3 +29,19 @@ a{
   color: $default;
   text-decoration: none;
 }
+
+.title{
+  @extend %roboto-700;
+  font-size: 48px;
+  line-height: 1;
+  color: $title;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle{
+  @extend %quicksand-400;
+  max-width: 570px;
+  text-align: center;
+  margin: 25px auto 55px;
+}
